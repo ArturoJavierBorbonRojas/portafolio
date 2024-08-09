@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #e48a8a;
+
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*background-color: aqua;*/
+    color: blueviolet;
+}
+
+.texto-destacado{
+    color:red;
+    font-weight:bold;
+    padding:20 px;
+    border-radius: 10px;
+
+}
+
+.contenido{
+    max-width:800px;
+    margin: 50px;
+    background-color: grey;
+    padding: 35px;
+    border-radius:10px;
+    box-shadow: 0 4px 8x rgba(0,0,0,1);
+}
+
+footer{
+    color:forestgreen;
+    background-color: orange;
+    padding: 50 px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+/*parte del challgenge 2*/
+.titulo-blog {
+    text-shadow: 2px 2px 4px rgba(251, 255, 0, 0);
+font-size: 2.5em;
+/*degradado de color*/
+background: linear-gradient (right, #3498db, #9b59b6);
+-webkit-background-clip: text;
+-webkit-text-fill-color: rgb(156, 140, 140);
+}
+
+/*challenge de la 3*/
+@keyframes parpadeo{
+    0%,100%{opacity:1}
+    50%{opacity:0;}
+}
+
+.noticia{
+color: red;
+font-size: 2em;
+font-weight: bold;
+animation: parpadeo 1s infinite;
+}
